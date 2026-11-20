@@ -2,6 +2,8 @@
 
 A self-running 3D replay of a real quadcopter flight. A 4-inch FPV quad follows a GPS track from a GPX file or an EdgeTX/OpenTX telemetry log across procedurally generated terrain. It is a single HTML file with WebGL via [three.js](https://threejs.org/). There is no build step and no server, and the page makes no external requests.
 
+![FPV view over the generated terrain with the HUD shown](docs/screenshot.png)
+
 ## Getting started
 
 Open `index.html` in a browser (double-click is enough, `file://` works). On start it replays the embedded sample flight ("Session 1") in a loop.
